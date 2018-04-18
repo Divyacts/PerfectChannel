@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_seq]">
+  <test name="AuctioneersBookTest-Run1(failed)">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Sequential"/>
+    <parameter name="testname1" value="AuctioneersBookTest"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="AuctioneersBookTest-Run1"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.LiveConferenceTest.AuctioneersBookTest">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="executeTest"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.LiveConferenceTest.AuctioneersBookTest -->
+    </classes>
+  </test> <!-- AuctioneersBookTest-Run1(failed) -->
+</suite> <!-- Failed suite [Suite_seq] -->

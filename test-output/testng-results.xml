@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152598" started-at="2018-04-18T05:40:59Z" finished-at="2018-04-18T05:43:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="152598" started-at="2018-04-18T05:40:59Z" finished-at="2018-04-18T05:43:32Z">
+      <class name="com.mop.qa.testrunner.TestRunner">
+        <test-method status="PASS" signature="testRun()[pri:0, instance:com.mop.qa.testrunner.TestRunner@14ddd49]" name="testRun" duration-ms="152572" started-at="2018-04-18T11:10:59Z" finished-at="2018-04-18T11:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+      </class> <!-- com.mop.qa.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

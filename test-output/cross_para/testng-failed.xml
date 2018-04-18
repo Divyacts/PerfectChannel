@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cross_para]" parallel="tests">
+  <test name="PerfectChannelAdminTest-Run1(failed)">
+    <parameter name="Locality" value="Hub"/>
+    <parameter name="appType" value="Web"/>
+    <parameter name="ExecutionType" value="Parallel"/>
+    <parameter name="testname1" value="PerfectChannelAdminTest"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="testname" value="PerfectChannelAdminTest-Run1"/>
+    <parameter name="toolName" value="Selenium"/>
+    <classes>
+      <class name="com.mop.qa.test.perfectChannel.PerfectChannelAdminTest">
+        <methods>
+          <include name="executeSuite"/>
+          <include name="afterTest"/>
+          <include name="finishExecution"/>
+          <include name="startTestReport"/>
+          <include name="executeTest"/>
+        </methods>
+      </class> <!-- com.mop.qa.test.perfectChannel.PerfectChannelAdminTest -->
+    </classes>
+  </test> <!-- PerfectChannelAdminTest-Run1(failed) -->
+</suite> <!-- Failed suite [cross_para] -->
